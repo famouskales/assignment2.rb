@@ -1,10 +1,7 @@
-# assignment2.rb
-my_age=16 
-my_name=Markale
-yes i take the bus
-
-side_a = 6
-side_b = 8
-
-c= side_a**2 + side_b**2
-c=Math.sqrt(c)
+puts "How many hours do you work?"
+hour =  gets.to_i
+puts "How much do you make per hour?"
+per_hour =  gets.to_i
+puts "How many weeks did you work?"
+weeks =  gets.to_i
+slarey = hour * per_hour * weeks
